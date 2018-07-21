@@ -7,7 +7,7 @@ const main = () => (
     <main>
       <Switch>
         <Route exact path='/' render={ () => (<LogIn name="Test"> Childern... </LogIn>) }/>
-        <Route exact path='/home' render={ () => (<Home name="Test"> Childern... </Home>) }/>
+        <Route exact path='/home' render={ () => (<Home name="Grid Demo"> Childern... </Home>) }/>
        
       </Switch>
       

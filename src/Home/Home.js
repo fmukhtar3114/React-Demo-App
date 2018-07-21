@@ -31,8 +31,10 @@ class home extends Component {
                   className="ag-theme-balham margin"
                   style={{ 
 	                height: '500px', 
-	                width: '600px' }} 
+                    width: '600px' }} 
+                    
 		            >
+                    <p > {this.props.name} </p>
                     <AgGridReact
                         columnDefs={this.state.columnDefs}
                         rowData={this.state.rowData}>
